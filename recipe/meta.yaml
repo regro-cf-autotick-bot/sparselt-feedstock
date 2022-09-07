@@ -1,5 +1,5 @@
 {% set name = "sparselt" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/LiamBindle/sparselt/archive/{{ version }}.tar.gz
-  sha256: 467827bbfeac8a124e2ab51bdecdfd9a472be4372f3db01e022ab6137b97a0bb
+  sha256: d39a3aad3084ffd79af65b1d457488173e5c31aba3f878bf999419b39947a963
 
 build:
   noarch: python
